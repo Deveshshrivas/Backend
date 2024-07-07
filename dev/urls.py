@@ -3,5 +3,5 @@ from .views import MessageAPIView
 
 
 urlpatterns = [
-    path('messages', MessageAPIView.as_view()
+    path('messages', MessageAPIView.as_view())
 ]
